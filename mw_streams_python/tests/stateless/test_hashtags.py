@@ -1,0 +1,33 @@
+from dataclasses import dataclass
+from pathlib import Path
+
+from mws.pipeline import Pipeline
+from mws.sinks import CallbackSink
+from mws.sources import CSVSource
+from mws.operators import Map, FlatMap, Filter
+
+
+EXPECTED = ["love", "edinburgh", "bitcoin", "edinburgh", "memes", "better"]
+
+
+@dataclass
+class Tweet:
+    id: int
+    contents: str
+
+
+def test_word_cleaning() -> None:
+    output = []
+    sink = CallbackSink(output.append)
+    source = CSVSource(Tweet, Path(__file__).with_name("tweets.csv"))
+
+    pipeline = (
+        Pipeline.of(source)
+        .then(FlatMap(lambda s: s.contents.lower().split(" ")))
+        .then(Filter(lambda s: s[0] == "#"))
+        .then(Map(lambda s: s[1:]))
+        .to(sink)
+    )
+
+    pipeline.start()
+    assert output == EXPECTED

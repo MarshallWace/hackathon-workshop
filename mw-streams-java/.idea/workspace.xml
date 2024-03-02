@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75609cd9-add8-406f-94ac-b29c36d3e2a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/ex_1/Fizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateless/Fizzbuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/ex_2/MaxTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateful/MaxTemperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/ex_2/WordCleaning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/operators/TumblingAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/operators/TumblingAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/operators/TumblingMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/operators/TumblingMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/p1_stateless/TestFizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/stateless/TestFizzbuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/p1_stateless/TestWordCleaning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/stateless/TestWordCleaning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/p2_stateful/TestMaxTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/stateful/TestMaxTemperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/sinks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/sinks/__init__.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2d68Qm60YtLIg5ccJPBG6IxzRWp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/tom/Documents/code/htb_workshop/edinburgh_workshop_2024/mw-streams-java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mwam.hackathon.Main" />
+      <module name="mw-streams-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mwam.hackathon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFizzbuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mw-streams-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mwam.hackathon.stateless.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mwam.hackathon.p1_stateless" />
+      <option name="MAIN_CLASS_NAME" value="com.mwam.hackathon.stateless.TestFizzbuzz" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestFizzbuzz" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75609cd9-add8-406f-94ac-b29c36d3e2a0" name="Changes" comment="" />
+      <created>1709317153579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709317153579</updated>
+    </task>
+    <servers />
+  </component>
+</project>
