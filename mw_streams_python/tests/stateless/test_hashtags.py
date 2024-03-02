@@ -21,13 +21,7 @@ def test_word_cleaning() -> None:
     sink = CallbackSink(output.append)
     source = CSVSource(Tweet, Path(__file__).with_name("tweets.csv"))
 
-    pipeline = (
-        Pipeline.of(source)
-        .then(FlatMap(lambda s: s.contents.lower().split(" ")))
-        .then(Filter(lambda s: s[0] == "#"))
-        .then(Map(lambda s: s[1:]))
-        .to(sink)
-    )
+    pipeline = ...
 
     pipeline.start()
     assert output == EXPECTED

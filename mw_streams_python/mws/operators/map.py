@@ -13,4 +13,4 @@ class Map(Operator[I, O]):
         self.fn = fn
 
     def consume(self, event: I) -> None:
-        self.emit(self.fn(event))
+        raise NotImplementedError("TODO implement me")

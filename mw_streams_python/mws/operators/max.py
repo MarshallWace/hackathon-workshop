@@ -13,7 +13,4 @@ class Max(Operator[I, O]):
         self.curr_max = None
 
     def consume(self, event: I) -> None:
-        if not self.curr_max or event > self.curr_max:
-            self.curr_max = event
-
-        self.emit(self.curr_max)
+        raise NotImplementedError("TODO implement me")

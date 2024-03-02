@@ -119,7 +119,7 @@ def test_max_temps() -> None:
     output = []
     sink = CallbackSink(output.append)
 
-    pipeline = Pipeline.of(SOURCE).then(Max()).then(sink)
+    pipeline = Pipeline.of(SOURCE).then(...).then(sink)
 
     pipeline.start()
     assert output == EXPECTED

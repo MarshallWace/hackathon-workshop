@@ -10,7 +10,7 @@ import java.util.Comparator;
 public class MaxTemperature {
     public static Pipeline<Double, Double> getPipeline(Source<Double> source, Sink<Double> sink) {
         return Pipeline.from(source)
-            .then(new Max<Double>(Comparator.naturalOrder()))
+            // ...
             .to(sink);
     }
 }

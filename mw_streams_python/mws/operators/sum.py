@@ -11,5 +11,4 @@ class Sum(Operator[Number, Number]):
         self.total = 0
 
     def consume(self, event: Number) -> None:
-        self.total += event
-        self.emit(self.total)
+        raise NotImplementedError("TODO implement me")

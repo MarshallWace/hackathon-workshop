@@ -26,18 +26,6 @@ EXPECTED = [
     "19",
 ]
 
-
-def fizzbuzz(n: int) -> str:
-    if n % 5 == 0 and n % 3 == 0:
-        return "fizzbuzz"
-    elif n % 3 == 0:
-        return "fizz"
-    elif n % 5 == 0:
-        return "buzz"
-    else:
-        return str(n)
-
-
 def test_fizzbuzz() -> "Pipeline[int, str]":
     """
     Implement a fizzbuzz pipeline (hint: `Map` will be a helpful operator).
@@ -45,7 +33,7 @@ def test_fizzbuzz() -> "Pipeline[int, str]":
     output = []
     sink = CallbackSink(output.append)
 
-    pipeline = Pipeline.of(SOURCE).then(Map(fizzbuzz)).to(sink)
+    pipeline = Pipeline.of(SOURCE).then(...).to(sink)
     pipeline.start()
 
     assert output == EXPECTED

@@ -5,17 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75609cd9-add8-406f-94ac-b29c36d3e2a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/ex_1/Fizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateless/Fizzbuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/ex_2/MaxTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateful/MaxTemperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/ex_2/WordCleaning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/operators/TumblingAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/operators/TumblingAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/operators/TumblingMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/operators/TumblingMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/p1_stateless/TestFizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/stateless/TestFizzbuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/p1_stateless/TestWordCleaning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/stateless/TestWordCleaning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/p2_stateful/TestMaxTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mwam/hackathon/stateful/TestMaxTemperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/sinks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/sinks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateful/MaxTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateful/MaxTemperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateless/Fizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateless/Fizzbuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateless/WordCleaning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mwam/hackathon/stateless/WordCleaning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/average.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/average.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/flatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/flatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/max.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/max.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/tumbling_average.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/tumbling_average.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/mws/operators/tumbling_max.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/mws/operators/tumbling_max.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/tests/stateful/test_max_temps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/tests/stateful/test_max_temps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/tests/stateful/test_party_people.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/tests/stateful/test_party_people.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/tests/stateless/test_fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/tests/stateless/test_fizzbuzz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mw_streams_python/tests/stateless/test_hashtags.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mw_streams_python/tests/stateless/test_hashtags.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -47,7 +57,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/tom/Documents/code/htb_workshop/edinburgh_workshop_2024/mw-streams-java"
   }
 }]]></component>

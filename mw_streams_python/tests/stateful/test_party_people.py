@@ -49,13 +49,7 @@ def test_party_people() -> None:
     output = []
     sink = CallbackSink(output.append)
 
-    pipeline = (
-        Pipeline.of(source)
-        .then(Map(lambda e: e.message.split(" ")[1]))
-        .then(Map(lambda s: 1 if s == "arrival" else -1))
-        .then(Sum())
-        .to(sink)
-    )
+    pipeline = ...
 
     pipeline.start()
     assert output == EXPECTED

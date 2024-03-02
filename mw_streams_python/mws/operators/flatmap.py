@@ -13,5 +13,4 @@ class FlatMap(Operator[I, O]):
         self.fn = fn
 
     def consume(self, event: I) -> None:
-        for output in self.fn(event):
-            self.emit(output)
+        raise NotImplementedError("TODO implement me")

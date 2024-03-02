@@ -12,5 +12,4 @@ class Filter(Operator[I, I]):
         self.predicate = predicate
 
     def consume(self, event: I) -> None:
-        if self.predicate(event):
-            self.emit(event)
+        raise NotImplementedError("implement me")

@@ -14,11 +14,4 @@ class Max(Operator[T, T]):
         self.window_size = window_size
 
     def consume(self, event: T) -> None:
-        if not self.curr_max or event > self.curr_max:
-            self.curr_max = event
-
-        # emit max and reset if we've reached the end of our window
-        if self.count >= self.window_size:
-            self.count = 0
-            self.curr_max = None
-            self.emit(self.curr_max)
+        raise NotImplementedError("TODO implement me")
